@@ -1,0 +1,95 @@
+.container {
+  width: 700px;
+  margin: 50px auto;
+  background-color: #0C99C1;
+  color: rgb(0, 0, 0);
+  font-family: "MS Sans Serif", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+.headers {
+  font-family: "W95", sans-serif;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+h1 {
+  color: #F30CD4;
+  font-size: 36px;
+}
+
+h2 {
+  color: #22B9CA;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(images/w95fa-webfont.woff);
+  font-family: "W95";
+  font-style: normal;
+  font-weight: 300;
+}
+
+.card {
+  background-color: #FFF78F;
+  margin: 33px 0;
+  padding: 1px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+.btn-rose {
+  background-color: #F30CD4;
+  color:#FFF78F;
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0,0.5);
+}
+
+.inline-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.inline-list li {
+display: inline-block;
+padding: 0 10px;
+}
+
+.inline-list i {
+  font-size: 60px;
+  color: #F30CD4;
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
